@@ -2,12 +2,15 @@ import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import COVENANT_ABI from "./covenant-abi.json";
 
-const COVENANT_ADDRESS = "0x4A4E4F8A4D4bB5c5B5D4D4E4F4F4F4F4F4F4F4F4";
+//testing out weth contract just to see
+const COVENANT_ADDRESS = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
+
 
 const Covenant = () => {
   const [balance, setBalance] = useState<number>(0);
   const [contract, setContract] = useState<ethers.Contract>();
-
+  
+//write a json rpc fetch function
   useEffect(() => {
     const init = async () => {
       const provider = new ethers.providers.Web3Provider(window.ethereum);

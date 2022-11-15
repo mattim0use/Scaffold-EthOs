@@ -29,6 +29,7 @@ const Home: NextPage = () => {
           </a>
           <div>a developer kit to build with EthereansOs</div>
         </h1>
+        <AddressInput />
       </main>
     </div>
   );

@@ -58,7 +58,11 @@ const AddressInput = ({ placeholder, onSuccess }: IAddressInput) => {
             
           />
           <span className="p-0 rounded-md bg-base-100 h-10" style={{}}>
+          
+          {/* TODO button still needs to snap into mobile version */}
             <button style={{ borderTopRightRadius: "10px", padding:"4px", borderBottomRightRadius: "10px", border: "1px solid green", backgroundColor: "limegreen", color:"black"}} onClick={toggle}>Show Covenants Farm</button>
+          
+          
           </span>
         </label>
       </div>

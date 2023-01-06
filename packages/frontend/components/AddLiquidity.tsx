@@ -13,6 +13,7 @@ import {
 import { useAppStore } from "~~/services/store/store";
 
 function AddLiquidity() {
+  
   const [isOpen, setIsOpen] = useState(false);
   // create form and setForm function
   const router = useRouter();
@@ -90,6 +91,7 @@ function AddLiquidity() {
       </button>
 
       {isOpen && (
+        
         <div
           style={{
             position: "fixed",
@@ -103,6 +105,7 @@ function AddLiquidity() {
             alignItems: "center",
           }}
         >
+          <iframe src="https://bafybeihvjs76yulobcfyak2gfpusauvqcgfxykxcqc42xli2q65py7emqm.ipfs.dweb.link/#/covenants/farming" style={{height: "800px", width:"1200px"}}></iframe>
           <div
             style={{
               // add headings inside main div

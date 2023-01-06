@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "@uniswap/v3-sdk": "^3.9.0",
-    "react-hot-toast": "^2.4.0"
+    "react-hot-toast": "^2.4.0",
+    "yarn": "^1.22.19"
   }
 }
